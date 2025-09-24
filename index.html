@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>SCSS Layout Eksempel</title>
+    <!-- Link til den kompilerede CSS-fil -->
+    <link rel="stylesheet" href="/assets/css/test.min.css"> 
+</head>
+<body>
+    
+    <!-- TOP NAVIGATION -->
+    <header class="navigation">
+        <nav>
+            <ul>
+                <li><a href="#section1">Sektion 1</a></li>
+                <li><a href="#section2">Sektion 2</a></li>
+                <li><a href="#section3">Sektion 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        
+        <!-- SECTION 1 -->
+        <section id="section1" class="content-section">
+            <h1>Section 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <button class="cta-button">KØB NU</button>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section id="section2" class="content-section">
+            <h1>Section 2</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+        </section>
+
+        <!-- SECTION 3 (med billeder) -->
+        <section id="section3" class="content-section image-gallery">
+            <h1>Section 3</h1>
+            <div class="image-row">
+                <img src="assets/pictures/GP010374.JPG" alt="Billede 1">
+                <img src="assets/pictures/GP010502.JPG" alt="Billede 2">
+                <img src="assets/pictures/GP010429.JPG" alt="Billede 3">
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <p>FOOTER | Design af Viktoriia Kulyk</p>
+    </footer>
+
+</body>
+</html>
